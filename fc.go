@@ -22,7 +22,7 @@ func main() {
 
     searchResults, err := search.Search(pattern)
     if err != nil {
-        log.Fatal("Error in search", err)
+        log.Fatal("Error in search: ", err)
     }
 
     for _, s := range searchResults {
