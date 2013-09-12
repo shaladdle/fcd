@@ -1,5 +1,4 @@
-FCDIR=$HOME/utils/fc
-FCDFINDER=locate
+# Function for fast directory switch
 function fc {
-	eval cd "$(ruby $FCDIR/fc.rb $FCDFINDER "$1" 10)"
+    eval cd $($HOME/bin/fc "$1")
 }
