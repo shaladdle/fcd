@@ -17,7 +17,7 @@ You need two things:
 1. A compiled fcd binary in your path
 1. Some shell alias/function that calls the binary and does the actual cd. The Go program has its own shell env, so it can't really change your shell's directory.
 
-For the first, you'll need Go installed. Git clone this repo and do make install to install the binary to $HOME/bin/fcd.  For the second, if you use bash or zsh, you can do cat fcd.sh >> .bashrc or cat fcd.sh >> .zshrc
+For the first, you'll need Go installed. Git clone this repo and do ```make install ``` to install the binary to $HOME/bin/fcd.  For the second, if you use bash or zsh, you can do ```cat fcd.sh >> .bashrc``` or ```cat fcd.sh >> .zshrc```
 
 At this point, it should work!
 
