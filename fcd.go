@@ -8,10 +8,6 @@ import (
 	"os"
 )
 
-var (
-	timeit = flag.Bool("time", false, "whether or not to print out timing statistics after running")
-)
-
 func main() {
 	flag.Parse()
 
